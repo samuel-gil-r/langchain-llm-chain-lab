@@ -1,4 +1,4 @@
-# LangChain LLM Chain - Lab 1
+# LangChain LLM Chain 
 
 This project is the first lab in the RAG (Retrieval-Augmented Generation) series. The goal is to understand how a basic chain works in LangChain by connecting a prompt, a language model, and an output parser.
 
