@@ -96,6 +96,7 @@ Answer: A prompt is the instruction or question you give to the model to guide
 its answer. Its purpose is to steer the model toward the result you need.
 ------------------------------------------------------------
 ```
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/b6e50ee6-8a44-409c-85f7-46b9616a43a5" />
 
 ---
 
@@ -104,8 +105,7 @@ its answer. Its purpose is to steer the model toward the result you need.
 langchain-llm-chain-lab/
 ├── src/
 │   └── main.py        # Main code with the LangChain chain
-├── .env               # Your API key (not uploaded to GitHub)
-├── .env.example       # Example .env file without real keys
+├── .env               # Your API key 
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -123,80 +123,5 @@ langchain-llm-chain-lab/
 ## AUTHOR
 - Samuel Antonio Gil Romero
 ## Subject
-- TDSE
+- TDSE-Tecnología y Desarrollo de Sistemas Empresariales
 
-# En Mac/Linux:
-source venv/bin/activate
-
-# En Windows:
-venv\Scripts\activate
-```
-
-**3. Instala las dependencias:**
-```bash
-pip install -r requirements.txt
-```
-
-**4. Crea tu archivo `.env`** en la raíz del proyecto con tu API key de Groq:
-```
-GROQ_API_KEY=tu-clave-aqui
-```
-
-Para obtener tu API key ve a [console.groq.com](https://console.groq.com), crea una cuenta gratis y genera una nueva key desde el panel.
-
----
-
-## Cómo ejecutarlo
-```bash
-python src/main.py
-```
-
----
-
-## Ejemplo de salida
-
-Cuando ejecutas el script verás algo así en tu terminal:
-```
-Pregunta: ¿Qué es LangChain y para qué sirve?
-Respuesta: LangChain es una plataforma de código abierto diseñada para facilitar
-el desarrollo de aplicaciones basadas en inteligencia artificial...
-------------------------------------------------------------
-
-Pregunta: ¿Qué es un modelo de lenguaje grande (LLM)?
-Respuesta: Un modelo de lenguaje grande es un sistema de inteligencia artificial
-entrenado con enormes cantidades de texto...
-------------------------------------------------------------
-
-Pregunta: Explica qué es un prompt en 2 oraciones.
-Respuesta: Un prompt es la instrucción o pregunta que le das al modelo para guiar
-su respuesta. Su objetivo es orientar al modelo hacia el resultado que necesitas.
-------------------------------------------------------------
-```
-
----
-
-## Estructura del proyecto
-```
-langchain-llm-chain-lab/
-├── src/
-│   └── main.py        # Código principal con la cadena LangChain
-├── .env               # Tu API key (no se sube a GitHub)
-├── .env.example       # Ejemplo del archivo .env sin claves reales
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Tecnologías usadas
-
-- [LangChain](https://python.langchain.com/) — framework para construir aplicaciones con LLMs
-- [Groq](https://console.groq.com/) — proveedor gratuito del modelo de lenguaje
-- [llama-3.3-70b-versatile](https://console.groq.com/docs/models) — el modelo LLM usado
-- [python-dotenv](https://pypi.org/project/python-dotenv/) — para manejar variables de entorno
-
-## AUTOR
-- Samuel Antonio GIl Romero
-## Materia 
-- TDSE 
